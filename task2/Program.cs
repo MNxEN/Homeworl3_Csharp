@@ -16,12 +16,12 @@ double Length (int x, int y, int z)
    return Math.Sqrt(temp); 
 }
 
-int x1 = ReadInt("Введите координату X первой точки ");
-int y1 = ReadInt("Введите координату Y первой точки ");
-int z1 = ReadInt("Введите координату Z первой точки ");
-int x2 = ReadInt("Введите координату X второй точки ");
-int y2 = ReadInt("Введите координату Y второй точки ");
-int z2 = ReadInt("Введите координату Z первой точки ");
+int x1 = ReadInt("Введите координату X1 первой точки ");
+int y1 = ReadInt("Введите координату Y1 первой точки ");
+int z1 = ReadInt("Введите координату Z1 первой точки ");
+int x2 = ReadInt("Введите координату X2 второй точки ");
+int y2 = ReadInt("Введите координату Y2 второй точки ");
+int z2 = ReadInt("Введите координату Z2 первой точки ");
 
 double Diagonale = Length(x1-x2, y1-y2, z1-z2);
 Console.WriteLine($"Расстояние между двумя точками равно {Diagonale}");
